@@ -103,7 +103,7 @@ body {
 
 .about-title {
     display: block;
-    margin: 0 0 30px 0;
+    margin: 0;
     font-family: Arial;
     color:  #445161;
     font-size: 30px;
@@ -600,6 +600,130 @@ body {
     box-sizing: border-box;
     background-color: #606777;
     color: #ffffff;
+}
+
+.main-footer-contacts {
+    width: 240px;
+    height: 300px;
+    margin: 0;
+}
+
+.main-footer-contacts-list {
+    list-style-type: none;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+    padding: 0 0 0 30px;
+    margin: 0 0 35px 0;;
+}
+
+.main-footer-contacts-list-item {
+    position: relative;
+    margin: 0 0 30px 0;
+}
+
+.main-footer-contacts-list-item:last-child {
+    margin: 0;
+}
+
+.main-footer-contacts-list-item:nth-child(1)::before {
+    content: '\f095';
+    position: absolute;
+    top: 0;
+    left: -25px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.main-footer-contacts-list-item:nth-child(2)::before {
+    content: '\f863';
+    position: absolute;
+    top: 0;
+    left: -25px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.main-footer-contacts-list-item:nth-child(3)::before {
+    content: '\f1fa';
+    position: absolute;
+    top: 0;
+    left: -25px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.main-footer-contacts-list-item:nth-child(4)::before {
+    content: '\f095';
+    position: absolute;
+    top: 0;
+    left: -25px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.main-footer-contacts-list-item-link {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.main-footer-contacts-list-item-link:hover {
+    text-decoration: underline;
+}
+
+.main-footer-contacts-list-item-link:active {
+    text-decoration: underline;
+    color: #cccccc;
+}
+
+.main-footer-contacts-social {
+    width: 100%;
+    display: flex;
+}
+
+.main-footer-contacts-social-item {
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 0 0 0 10px;
+    background-image: url('/img/social_buttons.png');
+    background-repeat: no-repeat;
+}
+
+.main-footer-contacts-social-item:hover {
+    background-color: #cccccc;
+}
+
+.main-footer-contacts-social-item:active {
+    background-color: #445162;
+}
+
+.main-footer-contacts-social-item:nth-child(1) {
+    margin: 0;
+    background-position: -2px -1px;
+}
+
+.main-footer-contacts-social-item:nth-child(2) {
+    background-position: -51px -1px;
+}
+
+.main-footer-contacts-social-item:nth-child(3) {
+    background-position: -100px -1px;
+}
+
+.main-footer-contacts-social-item:nth-child(4) {
+    background-position: -150px -1px;
+}
+
+.main-footer-contacts-social-item:nth-child(5) {
+    background-position: -199px -1px;
 }
 
 .main-footer-copyright {
